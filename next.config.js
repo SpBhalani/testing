@@ -9,7 +9,7 @@ const nextConfig = {
       BASE_URL: process.env.SERVER_URL,
     },
     experimental: {
-      scrollRestoration: false,
+      // scrollRestoration: false,
     },
   };
 
