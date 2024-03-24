@@ -1,4 +1,4 @@
-// /** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} */
 
 const nextConfig = {
     images: {
@@ -8,9 +8,9 @@ const nextConfig = {
     env: {
       BASE_URL: process.env.SERVER_URL,
     },
-    experimental: {
-      // scrollRestoration: false,
-    },
+    // experimental: {
+    //   // scrollRestoration: false,
+    // },
   };
 
 module.exports = nextConfig
